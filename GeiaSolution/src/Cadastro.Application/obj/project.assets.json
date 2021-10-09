@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Cadastro.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Cadastro.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cadastro.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cadastro.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Cadastro.Domain/Cadastro.Domain.csproj",
+      "msbuildProject": "../Cadastro.Domain/Cadastro.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Cadastro.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Wellington\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+              "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

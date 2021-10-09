@@ -4,14 +4,72 @@
     "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\Cadastro.Infra.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\Cadastro.Infra.IoC.csproj": {
+    "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Application\\Cadastro.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\Cadastro.Infra.IoC.csproj",
-        "projectName": "Cadastro.Infra.IoC",
-        "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\Cadastro.Infra.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Application\\Cadastro.Application.csproj",
+        "projectName": "Cadastro.Application",
+        "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Application\\Cadastro.Application.csproj",
         "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\obj\\",
+        "outputPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj",
+        "projectName": "Cadastro.Domain",
+        "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +97,164 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.Data\\Cadastro.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.Data\\Cadastro.Infra.Data.csproj",
+        "projectName": "Cadastro.Infra.Data",
+        "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.Data\\Cadastro.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\Cadastro.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\Cadastro.Infra.IoC.csproj",
+        "projectName": "Cadastro.Infra.IoC",
+        "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\Cadastro.Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Application\\Cadastro.Application.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Application\\Cadastro.Application.csproj"
+              },
+              "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              },
+              "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.Data\\Cadastro.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Geia\\GeiaSolution\\src\\Cadastro.Infra.Data\\Cadastro.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,17 @@
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\Cadastro.Infra.Data.deps.json
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\Cadastro.Infra.Data.runtimeconfig.json
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\Cadastro.Infra.Data.runtimeconfig.dev.json
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\Cadastro.Infra.Data.dll
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\ref\Cadastro.Infra.Data.dll
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\Cadastro.Infra.Data.pdb
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\Cadastro.Domain.dll
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\bin\Debug\net5.0\Cadastro.Domain.pdb
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.AssemblyInfo.cs
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.dll
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\ref\Cadastro.Infra.Data.dll
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.pdb
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.genruntimeconfig.cache
