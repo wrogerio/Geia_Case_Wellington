@@ -1,1 +1,11 @@
-﻿
+﻿* {
+    box-sizing: border-box !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
