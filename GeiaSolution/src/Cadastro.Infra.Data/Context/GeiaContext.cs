@@ -12,7 +12,7 @@ namespace Cadastro.Infra.Data.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(BuildConnectionString(@".\", "sa", "spnsw2002"));
+            optionsBuilder.UseSqlServer(BuildConnectionString(".\\", "sa", "spnsw2002"));
             optionsBuilder.UseLazyLoadingProxies();
         }
 
