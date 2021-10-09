@@ -6,8 +6,10 @@ namespace Cadastro.Application
 {
     public class ProdutoAppService: AppServiceBase<Produto>, IProdutoAppService
     {
-        public ProdutoAppService(IServiceBase<Produto> serviceBase) : base(serviceBase)
+        private readonly IProdutoService _service;
+        public ProdutoAppService(IProdutoService service) : base(service)
         {
+            _service = service;
         }
     }
 }

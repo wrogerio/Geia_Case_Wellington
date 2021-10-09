@@ -1,9 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Cadastro.Domain.Entities
 {
     public class Produto
     {
+        [Key]
         public Guid Id { get; set; }
         public string Nome { get; set; }
         public string Empresa { get; set; }

@@ -12,7 +12,6 @@
     <ProjectReference Include="..\Cadastro.Application\Cadastro.Application.csproj" />
     <ProjectReference Include="..\Cadastro.Domain\Cadastro.Domain.csproj" />
     <ProjectReference Include="..\Cadastro.Infra.Data\Cadastro.Infra.Data.csproj" />
-    <ProjectReference Include="..\Cadastro.Web\Cadastro.Web.csproj" />
   </ItemGroup>
 
 </Project>

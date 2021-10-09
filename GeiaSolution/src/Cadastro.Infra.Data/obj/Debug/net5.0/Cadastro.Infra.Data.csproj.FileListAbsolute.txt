@@ -15,4 +15,3 @@ C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\ref\Cadastro.Infra.Data.dll
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.pdb
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.genruntimeconfig.cache
-C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Infra.Data\obj\Debug\net5.0\Cadastro.Infra.Data.csproj.CopyComplete

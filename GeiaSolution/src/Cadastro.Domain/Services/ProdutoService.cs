@@ -6,8 +6,11 @@ namespace Cadastro.Domain.Services
 {
     public class ProdutoService : ServiceBase<Produto>, IProdutoService
     {
-        public ProdutoService(IRepositoryBase<Produto> repository) : base(repository)
+        private readonly IProdutoRepository _repository;
+
+        public ProdutoService(IProdutoRepository repository) : base(repository)
         {
+            _repository = repository;
         }
     }
 }
