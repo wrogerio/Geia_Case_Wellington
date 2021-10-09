@@ -1,5 +1,6 @@
 ﻿using Cadastro.Application;
 using Cadastro.Application.Interfaces;
+using Cadastro.Application.Mappings;
 using Cadastro.Domain.Interfaces.Repositories;
 using Cadastro.Domain.Interfaces.Services;
 using Cadastro.Domain.Services;
@@ -17,6 +18,8 @@ namespace Cadastro.Infra.IoC
             service.AddScoped<IProdutoService, ProdutoService>();
             service.AddScoped<IProdutoRepository, ProdutoRepository>();
             service.AddScoped<GeiaContext>();
+
+            service.AddAutoMapper(typeof(MappingProfile));
         }
     }
 }

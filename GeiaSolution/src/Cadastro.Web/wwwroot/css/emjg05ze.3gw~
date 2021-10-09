@@ -1,9 +1,0 @@
-﻿:root {
-    --background-color-main: #054d68;
-    --background-color-secondary-strong: #434343;
-    --background-color-secondary-light: #e2e2e2;
-    --text-color-title: #2fa7bd;
-    --text-color-subtitle: #434343;
-    --button-background: #407590;
-    --link-color: #407590;
-}

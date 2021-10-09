@@ -18,6 +18,7 @@ namespace Cadastro.Infra.Data.EntityConfig
             builder.Property(x => x.Empresa).IsRequired();
 
             // MaxLength
+            builder.Property(x => x.Nome).HasMaxLength(70);
             builder.Property(x => x.Empresa).HasMaxLength(70);
             builder.Property(x => x.NumeroRegristro).HasMaxLength(20);
 
@@ -25,13 +26,11 @@ namespace Cadastro.Infra.Data.EntityConfig
             builder.Property(x => x.CreatedAt).HasColumnType("DateTime");
             builder.Property(x => x.DataValidade).HasColumnType("DateTime");
             builder.Property(x => x.UpdatedAt).HasColumnType("DateTime");
+            builder.Property(x => x.Preco).HasColumnType("Decimal(18,2)");
 
             // Default Value
             builder.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
-            builder.Property(x => x.Deleted).HasDefaultValue(false);
-
-            // Precision
-            builder.Property(x => x.Preco).HasPrecision(18, 2);
+            builder.Property(x => x.Deleted).HasDefaultValue(0);
         }
     }
 }

@@ -2,6 +2,7 @@ C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\bin\Debug\net5
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\bin\Debug\net5.0\Cadastro.Domain.dll
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\bin\Debug\net5.0\ref\Cadastro.Domain.dll
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\bin\Debug\net5.0\Cadastro.Domain.pdb
+C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\obj\Debug\net5.0\Cadastro.Domain.csproj.AssemblyReference.cache
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\obj\Debug\net5.0\Cadastro.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\obj\Debug\net5.0\Cadastro.Domain.AssemblyInfoInputs.cache
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Domain\obj\Debug\net5.0\Cadastro.Domain.AssemblyInfo.cs

@@ -1,0 +1,18 @@
+﻿@import "root.css";
+
+
+.pageSubTitle {
+    background: var(--background-color-secondary-light);
+    padding: 0.3rem 2rem;
+}
+
+.linkVoltar:hover {
+    background: var(--background-color-main_hover);
+    padding: 0.2rem 0.5rem;
+    color: var(--color-white);
+    border-radius: 0.3rem;
+}
+
+th {
+    color: var(--background-color-main) !important
+}

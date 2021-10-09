@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Cadastro.Domain.Interfaces.Repositories
 {
@@ -8,7 +9,7 @@ namespace Cadastro.Domain.Interfaces.Repositories
 
         IEnumerable<TEntity> GetAll();
 
-        TEntity GetById(int id);
+        TEntity GetById(Guid id);
 
         void Update(TEntity obj);
 

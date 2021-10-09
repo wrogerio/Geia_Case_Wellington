@@ -1,0 +1,62 @@
+﻿@model List<Cadastro.Application.DTO.ProdutoDTO>
+
+<div class="row pt-2 mb-3">
+    <div class="col">
+        <div class="pageSubTitle d-flex justify-content-between align-items-center">
+            <h2 class="m-0">Estoque de Produtos</h2>
+            <a class="linkVoltar" asp-controller="Home" asp-action="Index">Voltar</a>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <a class="btn btn-primary" asp-action="Criar">Criar novo Produto</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <table class="table table-bordered table-hover table-sm">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Empresa</th>
+                    <th>Registro</th>
+                    <th>Validade</th>
+                    <th>Preço</th>
+                    <th style="width: 55px">#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nome</td>
+                        <td>@item.Empresa</td>
+                        <td>@item.NumeroRegristro</td>
+                        <td>@item.DataValidade.ToShortDateString()</td>
+                        <td>R$ @item.Preco.ToString("N2")</td>
+                        <td>
+                            <a asp-action="Editar" asp-route-id="@item.Id" class="me-2">
+                                <i class="fas fa-edit"></i>
+                            </a>
+
+                            <a class="editarProduto cursor" id="@item.Id">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Styles{
+    <link href="~/css/produtos.css" rel="stylesheet" />
+}
+
+@section Scripts{
+    <script src="~/js/edicao.js" asp-append-version="true"></script>
+}

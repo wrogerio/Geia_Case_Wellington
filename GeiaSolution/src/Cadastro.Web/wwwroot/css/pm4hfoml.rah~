@@ -1,0 +1,10 @@
+﻿.divTitulo {
+    background: url('../images/bg_home.jpg');
+    background-size: cover;
+    height: calc(100vh - 12rem);
+
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+    margin-top: 1rem;
+}

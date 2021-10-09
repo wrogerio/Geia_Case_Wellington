@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Cadastro.Domain.Interfaces.Repositories;
 using Cadastro.Domain.Interfaces.Services;
 
@@ -23,7 +24,7 @@ namespace Cadastro.Domain.Services
             return _repository.GetAll();
         }
 
-        public TEntity GetById(int id)
+        public TEntity GetById(Guid id)
         {
             return _repository.GetById(id);
         }

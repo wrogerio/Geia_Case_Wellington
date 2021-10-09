@@ -26,6 +26,7 @@ namespace Cadastro.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddOptions();
 
             NativeInjector.RegisterApp(services);
         }

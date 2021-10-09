@@ -1,0 +1,16 @@
+﻿.divTitulo {
+    background: url('../images/bg_home.jpg') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 12rem);
+
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+    margin: 1rem 0 2rem 0;
+}
+
+.divisoria {
+    height: 1px;
+    width: 30%;
+    border: solid 2px var(--background-color-main)
+}

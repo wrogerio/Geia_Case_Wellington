@@ -1,0 +1,7 @@
+﻿@import "root.css";
+
+
+.pageSubTitle {
+    background: var(--background-color-secondary-light);
+    padding: 0.3rem
+}

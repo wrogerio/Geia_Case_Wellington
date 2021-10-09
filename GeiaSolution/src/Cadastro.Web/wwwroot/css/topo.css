@@ -1,57 +1,32 @@
 ﻿@import "root.css";
 
-.topoOpened {
+.topoArea {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 20px 15px;
     background-color: var(--background-color-main);
     align-items: center;
 }
 
-.topoOpened_Logo {
-    color: white;
-    padding: 5px;
-}
-
-
-.topoOpened_Logo:hover {
-    color: white;
-}
-
-.topoOpened_Menu {
-    display: flex;
-    align-items: center;
-}
-
-.topoOpened_Menu_Lista {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 0;
-}
-
-.topoOpened_Menu_Lista li {
-    margin-left: 5px;
-    background-color: rgb(9, 83, 143);
+.topoArea_logo_Link {
+    color: var(--color-white);
     padding: 7px 10px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-.topoOpened_Menu_Lista li:hover {
-    background-color: rgb(10, 70, 120);
-}
-
-.topoOpened_Menu_Lista a {
-    color: white;
-}
+    .topoArea_logo_Link:hover {
+        background: var(--background-color-main_hover);
+        color: var(--color-white)
+    }
 
 
-.imgLogo {
-    width: 120px;
+.topoArea_menu_link {
+    color: var(--color-white);
+    padding: 7px 10px;
 }
 
-.topoTitle {
-    font-size: 1.3rem;
-    color: white;
-}
+    .topoArea_menu_link:hover {
+        background: var(--background-color-main_hover);
+        color: var(--color-white);
+        border-radius: 0.3rem;
+    }
