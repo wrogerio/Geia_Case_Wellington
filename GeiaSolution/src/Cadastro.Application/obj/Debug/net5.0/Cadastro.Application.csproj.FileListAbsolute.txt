@@ -9,7 +9,6 @@ C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug\net5.0\Cadastro.Application.AssemblyInfoInputs.cache
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug\net5.0\Cadastro.Application.AssemblyInfo.cs
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug\net5.0\Cadastro.Application.csproj.CoreCompileInputs.cache
-C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug\net5.0\Cadastro.Application.csproj.CopyComplete
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug\net5.0\Cadastro.Application.dll
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug\net5.0\ref\Cadastro.Application.dll
 C:\Users\Wellington\Desktop\Geia\GeiaSolution\src\Cadastro.Application\obj\Debug\net5.0\Cadastro.Application.pdb

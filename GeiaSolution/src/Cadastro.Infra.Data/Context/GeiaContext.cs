@@ -12,7 +12,7 @@ namespace Cadastro.Infra.Data.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=ProdutosDB;User ID=sa;PWD=spnsw2002");
+            optionsBuilder.UseSqlServer(BuildConnectionString(@".\", "sa", "spnsw2002"));
             optionsBuilder.UseLazyLoadingProxies();
         }
 
@@ -20,6 +20,11 @@ namespace Cadastro.Infra.Data.Context
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new ProdutoConfig());
+        }
+
+        protected string BuildConnectionString(string instanceSQL, string userName, string password)
+        {
+            return $"Data Source={instanceSQL};Initial Catalog=ProdutosDB;User ID={userName};PWD={password}";
         }
     }
 }
